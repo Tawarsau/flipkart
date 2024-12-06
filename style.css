@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: grey; */
+    padding: 7px 40px;
+    width: 80%;
+    margin: auto;
+    background: whitesmoke;
+    box-shadow: 2px 2px 2px black;
+    margin-bottom: 5px;
+}
+.menu i{
+    display: none;
+}
+.nav-logo h1{
+    font-size: 2.2rem;
+}
+.nav-input{
+    height: 40px;
+    width: 60%;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    border: none;
+    /* box-shadow: 2px 2px 3px grey; */
+    background: #dac9c9;
+    border-radius: 5px 5px 5px 5px;
+
+   
+}
+.nav-input i{
+    text-align: center;
+    /* background: rgb(219, 215, 215); */
+    height: 35px;
+    width: 40px;
+    padding-top: 2px;    
+    font-size: 1.2rem;
+    color: #000;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.nav-input input{
+    width: 95%;
+    height: 35px;
+    /* border: none; */
+    border-radius: 0px 5px 5px 0px;
+    background: transparent;
+    border: 1px solid transparent;
+}
+.nav-input ::placeholder{
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: #e2dbdb;
+    color: #000;
+}
+.nav-login i{
+   font-size: 18px;
+}
+.nav-login span{
+    margin-left: 5px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.nav-cart i{
+   font-size: 18px;
+
+}
+.nav-cart span{
+    margin-left: 5px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.seller i{
+    font-size: 22px;
+}
+.seller span{
+    margin-left: 5px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+   /* section-1 */
+   .section-1{
+    height: 15vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: whitesmoke;
+    padding-inline: 22px;
+   }
+
+   .section-2{
+    height: 30vh;
+    width: 80%;
+    margin: auto;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/1620/270/image/a4cec1601ff88602.jpg?q=20);
+    background-repeat: no-repeat;
+   background-size: cover;
+   }
+    .section-3{
+    /* height: 30vh; */
+    width: 80%;
+    margin: auto;
+    background: whitesmoke;
+    padding: 20px;
+   }
+   .content{
+   display:flex;
+   align-items: center;
+   justify-content: space-evenly;
+   }
+   .section-3 h1{
+    margin-bottom: 10px;
+   }
+   .box1{
+    height: 250px;
+    width: 200px;
+    border: 2px solid black;
+    /* background-color: aqua; */
+   }
+   .box1 img{
+    height: 80%;
+    margin-left: 20px;
+    padding: 5px;
+   }
+   .box1 p{
+    text-align: center;
+   }
+   .box2{
+    height: 250px;
+    width: 200px;
+    border: 2px solid black;
+   }
+   .box2 img{
+    height: 80%;
+    margin-left: 20px;
+    padding: 5px;
+   }
+   .box2 p{
+    text-align: center;
+   }
+   .box3{
+    height: 250px;
+    width: 200px;
+    border: 2px solid black;
+   }
+   .box3 img{
+    height: 80%;
+    margin-left: 20px;
+    padding: 5px;
+   }
+   .box3 p{
+    text-align: center;
+   }
+   .box4{
+    height: 250px;
+    width: 200px;
+    border: 2px solid black;
+   }
+   .box4 img{
+    height: 80%;
+    margin-left: 20px;
+    padding: 5px;
+   }
+   .box4 p{
+    text-align: center;
+   }
+   .box5{
+    height: 250px;
+    width: 200px;
+    border: 2px solid black;
+   }
+   .box5 img{
+    height: 80%;
+    margin-left: 20px;
+    padding: 5px;
+   }
+   .box5 p{
+    text-align: center;
+   }
+   .box6{
+    height: 250px;
+    width: 200px;
+    border: 2px solid black;
+   }
+   .box6 img{
+    height: 80%;
+    margin-left: 20px;
+    padding: 5px;
+   }
+   .box6 p{
+    text-align: center;
+   }
+   .box7{
+    height: 250px;
+    width: 200px;
+    border: 2px solid black;
+   }
+   .box7 img{
+    height: 80%;
+    margin-left: 20px;
+    padding: 5px;
+   }
+   .box7 p{
+    text-align: center;
+   }
+   .box8{
+    display: none;
+   }
+   /* .section-4 */
+   .section-4{
+    width: 80%;
+    margin: auto;
+    background: whitesmoke;
+    padding: 20px;
+   }
+   .section-4 h1{
+    margin-bottom: 10px;
+   }
+
+   /* .section-5 */
+   
+   .section-5{
+    height: 30vh;
+    width: 80%;
+    margin: auto;
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/1600/140/image/a19d56e1234fed98.jpg?q=20);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   }
+   .section-6{
+    width: 80%;
+    margin: auto;
+   }
+   .section-six{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   }
+   .section-six img{
+    width: 26vw;
+   }
+   .section-7{
+        height: 30vh;
+        width: 80%;
+        margin: auto;
+        background-image: url(https://rukminim1.flixcart.com/fk-p-flap/1600/350/image/a60ad09db7cdf3f7.png?q=20);
+        background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   .section-8{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+   }
+   .section-six{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   }
+   .section-six img{
+    width: 26vw;
+   }
+
+
+   .section-9{
+    /* height: 30vh; */
+    width: 80%;
+    margin: auto;
+    background: whitesmoke;
+    padding: 20px;
+   }
+  .section-9 .content{
+   display:flex;
+   align-items: center;
+   justify-content: space-evenly;
+   }
+   .section-9 h1{
+    margin-bottom: 10px;
+   }
+   .box1{
+    height: 250px;
+    width: 200px;
+    border: 2px solid black;
+    /* background-color: aqua; */
+   }
+   .box1 img{
+    height: 80%;
+    margin-left: 20px;
+    padding: 5px;
+   }
+   .box1 p{
+    text-align: center;
+   }
+   .box2{
+    height: 250px;
+    width: 200px;
+    border: 2px solid black;
+   }
+   .box2 img{
+    height: 80%;
+    margin-left: 20px;
+    padding: 5px;
+   }
+   .box2 p{
+    text-align: center;
+   }
+   .box3{
+    height: 250px;
+    width: 200px;
+    border: 2px solid black;
+   }
+   .box3 img{
+    height: 80%;
+    margin-left: 20px;
+    padding: 5px;
+   }
+   .box3 p{
+    text-align: center;
+   }
+   .box4{
+    height: 250px;
+    width: 200px;
+    border: 2px solid black;
+   }
+   .box4 img{
+    height: 80%;
+    margin-left: 20px;
+    padding: 5px;
+   }
+   .box4 p{
+    text-align: center;
+   }
+   .box5{
+    height: 250px;
+    width: 200px;
+    border: 2px solid black;
+   }
+   .box5 img{
+    height: 80%;
+    margin-left: 20px;
+    padding: 5px;
+   }
+   .box5 p{
+    text-align: center;
+   }
+   .box6{
+    height: 250px;
+    width: 200px;
+    border: 2px solid black;
+   }
+   .box6 img{
+    height: 80%;
+    margin-left: 20px;
+    padding: 5px;
+   }
+   .box6 p{
+    text-align: center;
+   }
+   .section-10{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-top: 10px;
+   }
+   .section-10 .section-six{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   }
+   .section-10 .section-six img{
+    width: 26vw;
+   }
+   .section-11{
+    height: 30vh;
+    width: 80%;
+    margin: auto;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/1600/350/image/a60ad09db7cdf3f7.png?q=20);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+footer{
+    background: #2e2a2a;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60vw;
+}
+ul h2{
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+ul li {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    padding-top: 5px;
+}
+.center{
+    height: 200px;
+    width: 2px;
+    background: wheat;
+    margin: 10px;
+}
+.right{
+    display: flex;
+    width: 40vw;
+    align-items: center;
+    justify-content: center;
+}
+.first{
+    color: wheat;
+    line-height: 2rem;
+}
+.second{
+    color: wheat;
+    line-height: 2rem;
+}
+
+   
+   
